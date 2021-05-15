@@ -12,8 +12,11 @@ for (const file of commandFiles) {
 	client.commands.set(command.name, command);
 }
 
-client.once('ready', () => {
+client.on('ready', () => {
 	console.log('Ready!');
+	client.user.setActivity('With Myself', { type: 'PLAYING' })
+		.then (presence => console.log(`Activity set to ${presence.activities[0]}`))
+		.catch(console.error);
 });
 
 client.on('message', message => {
@@ -23,7 +26,8 @@ client.on('message', message => {
 	if (!client.commands.has(command)) return;
 
 	try {
-		client.commands.get(command).execute(message);
+		client.commands.get(command).execute(message, args, client, Discord);
+		// console.log(args);
 	}
 	catch (error) {
 		console.error(error);
