@@ -15,6 +15,6 @@ Currently available commands: <br/>
   ### Version 0.0.1
   1. Created discordBotHost, known as Humble Text Slave in Discord
   2. Added new commands 
-  * }hello                  
-  * }ping
-  * }nice
+    * }hello                  
+    * }ping
+    * }nice
