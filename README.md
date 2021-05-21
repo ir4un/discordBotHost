@@ -10,17 +10,4 @@ Currently available commands: <br/>
   
   That is all for now, will add more soon <br/>
   -ir4un, 16/05/2021
-  
-## Changelog
-  ### Version 0.0.1
-  1. Created discordBotHost, known as Humble Text Slave in Discord.
-  2. Added new commands:
-   * }hello                  
-   * }ping
-   * }nice
-  
-  ### Version 0.0.2
-  1. Updated ping command to display embedded messages included with gif.
-  2. Added new commands:
-   * }spank             
-   * }check cuti
+ 
