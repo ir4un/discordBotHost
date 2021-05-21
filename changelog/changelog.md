@@ -1,5 +1,5 @@
 # Changelog
-  ## Version 0.0.3
+  ## Version 0.0.3 - Saturday - 22/05/2021
   1. Added changelog directory and md file.
   2. Added new command:
    * }help - user can now receive a dm message containing a list of commands.              
