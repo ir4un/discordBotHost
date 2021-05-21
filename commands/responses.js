@@ -29,6 +29,7 @@ module.exports = {
             'SKI-BI DIBBY DIB YO DA DUB DUB \n YO DA DUB DUB \n SKI-BI DIBBY DIB YO DA DUB DUB \n YO DA DUB DUB....I\'M THE SPANK MAN',
             `My god! I spanked ${targetUser} until he gone plaid!`,
             'I cum',
+            'spankety, spankety, spankety.',
         ];
         const resIndex = Math.floor(Math.random() * responseList.length);
         return responseList[resIndex];
