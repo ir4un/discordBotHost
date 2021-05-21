@@ -1,4 +1,9 @@
 # Changelog
+  ## Version 0.0.3
+  1. Added changelog directory and md file.
+  2. Added new command:
+   * }help - user can now receive a dm message containing a list of commands.              
+
   ## Version 0.0.2
   1. Updated ping command to display embedded messages included with gif.
   2. Added new commands:
